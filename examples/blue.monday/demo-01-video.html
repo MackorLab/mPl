@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+	
+	<link rel="stylesheet" href="css/index.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+        <script type="text/javascript" src="https://vk.com/js/api/openapi.js?169"></script>
+	<script src="https://unpkg.com/@lottiefiles/lottie-player@1.5.7/dist/lottie-player.js"></script>
+	
+	
+	<script>
+vkBridge.send('VKWebAppInit');	
+        </script>
+	
+	
+	
+	
+	
 <meta charset="utf-8" />
 <!-- Website Design By: www.happyworm.com -->
 <title>Demo : jPlayer as a video player</title>
@@ -41,6 +59,8 @@ $(document).ready(function(){
 </script>
 </head>
 <body>
+<div class="d-flex justify-content-center">  
+	
 <div id="jp_container_1" class="jp-video jp-video-360p" role="application" aria-label="media player">
 	<div class="jp-type-single">
 		<div id="jquery_jplayer_1" class="jp-jplayer"></div>
@@ -84,7 +104,7 @@ $(document).ready(function(){
 		</div>
 	</div>
 </div>
-
+</div>
 <script>
 document.oncontextmenu=function(e){return false};
 </script>
